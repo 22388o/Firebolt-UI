@@ -1,0 +1,9 @@
+.page {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.visible {
+  display: block;
+}
