@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallet App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="home" class="page">
+    <h1>Wallet App</h1>
+    <button id="createWallet">Create Wallet</button>
+    <button id="importWallet">Import Wallet</button>
+  </div>
+  
+  <div id="backup" class="page">
+    <h1>Backup Wallet</h1>
+    <p>Instructions for backing up the wallet...</p>
+    <button id="backupButton">Backup Now</button>
+  </div>
+  
+  <div id="checklist" class="page">
+    <h1>Checklist</h1>
+    <ul id="checklistItems">
+      <!-- Checklist items will be dynamically added here -->
+    </ul>
+    <button id="addItemButton">Add Item</button>
+  </div>
+  
+  <div id="contactList" class="page">
+    <h1>Contact List</h1>
+    <ul id="contactItems">
+      <!-- Contact list items will be dynamically added here -->
+    </ul>
+    <button id="addContactButton">Add Contact</button>
+  </div>
+  
+  <div id="pinCover" class="page">
+    <h1>Enter PIN</h1>
+    <input type="password" id="pinInput" />
+    <button id="unlockButton">Unlock</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
